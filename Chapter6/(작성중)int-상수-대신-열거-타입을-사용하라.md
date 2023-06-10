@@ -22,7 +22,7 @@ class APPLE{
 ```
 아래의 코드를 실행해보자.
 ```java
-public class Main {
+public class chapter1.item1.Main {
     public static void main(String[] args) {
         System.out.println(APPLE.FUJI);
         System.out.println(APPLE.PIPPIN);
@@ -38,7 +38,7 @@ PIPPIN
 ```
 아래의 코드를 실행해보자
 ```java
-public class Main {
+public class chapter1.item1.Main {
     public static void main(String[] args) {
         System.out.println(APPLE.FUJI);
         System.out.println(APPLE.PIPPIN);
