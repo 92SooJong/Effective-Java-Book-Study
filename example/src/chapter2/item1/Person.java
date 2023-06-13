@@ -1,4 +1,4 @@
-package item1;
+package chapter2.item1;
 
 public class Person {
 
@@ -21,8 +21,6 @@ public class Person {
     /**
      * 아래처럼 사용하는걸 추천 메소드
      */
-
-    //
     // 첫번째 장점 - 인스턴스 생생 메소드가 이름을 가질 수 있다.
     // 정적 팩터리 메소드를 통해 인스턴스 생성에 대한 내용을 메소드 명으로 설명 할수 있다!!!
     public static Person from(String name, int age, String address) {

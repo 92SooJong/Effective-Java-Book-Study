@@ -1,4 +1,4 @@
-package item1;
+package chapter2.item1;
 
 import java.util.List;
 
@@ -12,6 +12,7 @@ public class Item1Main {
         // 두번째 장점 - 호출될 때마다 인스턴스를 새로 생성하지는 않아도 된다.
         // from 메소드는 static이므로 메소드 호출시 별도의 Person 인스턴스를 만들 필요가 없다.
         // 불변 클래스에 대해서 미리 인스턴스를 만들어 두는 작업을 하지 않아도 된다. 필요할떄 만들면 됨!! - Boolean.valueOf를 참고 - 플라이웨이트 패턴 참고
+        // Compile 시점에 만들어진 불변 인스턴스를 반환하는식?! - 계산기 예제 코드...
         Person person = Person.from("Joey", 30, "Seoul");
 
         // 세번째 - 반환 타입의 하위 타입 객체를 반환할 수 있는 능력이 있다.

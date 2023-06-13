@@ -1,8 +1,4 @@
-package item2;
-
-import java.util.List;
-
-import item1.Person;
+package chapter2.item2;
 
 /**
  * 아이템2 : 생성자에 매개변수가 많다면 빌더를 고려하라
